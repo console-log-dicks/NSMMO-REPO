@@ -1,0 +1,5 @@
+//login session
+	-->	aan het begin van elke pagina "session_start();" en controleren of session['username'] bestaat en $username = session['username']
+	-->	aan elke html pagina een meta refresh toevoegen van 10min die verwijst naar homepage
+		(homepage bevat session_destroy)
+	DUS: sessie wordt overgedragen van pagina tot pagina tot als de user terugkomt op de homepage, daar wordt de sessie verbroken en moet ge weer inloggen
